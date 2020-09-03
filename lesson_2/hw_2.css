@@ -1,0 +1,50 @@
+/*input text {
+    font-style:normal;
+    background-color: gold;
+}*/
+
+span {
+    text-align: center;
+    color: red;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+label {
+    background-color:goldenrod;
+}
+
+#qwe {
+    background-color: palegreen;
+}
+
+p {
+    font-size: 150%;
+    font-style: normal;
+}
+
+button { 
+    font-size: 150%;
+    background-color:olivedrab;
+}
+
+input {
+background-color: palegreen;
+}
+
+#poi {
+    font-size: 200%;
+    color: deepskyblue;
+}
+
+#lkj {
+    font-size: 200%;
+    color: deepskyblue;
+}
+
+body {
+    background-color:lavender;
+    border: 2px solid black;
+    padding: 20px 50px;
+}
