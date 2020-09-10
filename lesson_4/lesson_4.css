@@ -1,0 +1,53 @@
+
+body {  /*сила специфичности 1*/
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    color: black; /*выбрать все элементы в html - сила 0*/
+}
+
+div span {   /*сила специфичности 2*/
+    color: blue;
+}
+
+body div span {    /*сила специфичности 3*/
+    color: orange;
+}
+
+.div-class1 .span-t{  /*сила селектора 20*/
+    color: blue;
+}
+
+.div-class1 .span-t.class2{  /*сила селектора 30*/
+    color:chartreuse;
+}
+
+.span-t {     /*сила специфичности 10*/
+    color: grey;
+}
+
+.span-t.class2 {    /* класс в классе сила специфичности 20*/
+    color: black;
+}
+
+[alt="rjak"] {     /*сила специфичности 10*/
+    color: pink;
+}
+
+.screen {       /*сила специфичности 10*/
+    color:black;
+}
+
+.qwer {
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    position: relative;
+}
+.asd {
+    width: 50px;
+    height: 50 px;
+    background-color: black;
+}
